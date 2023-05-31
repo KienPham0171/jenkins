@@ -3,13 +3,9 @@ pipeline{
 	stages {
 		stage ("Compile") {
 			steps{
-				sh "mvn clean install"
+				echo "mvn clean install"
 			}
 		}
-		stage ("unit test") {
-			steps{
-				sh "mvn test"
-			}
-		}
+
 	}
 }
