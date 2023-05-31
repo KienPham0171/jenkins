@@ -1,6 +1,9 @@
 pipeline{
     agent any
 	stages {
+	    triggers {
+            githubPush()
+        }
 		stage ("Compile") {
 			steps{
 				sh "mvn clean install"
