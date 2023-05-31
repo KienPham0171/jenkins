@@ -8,7 +8,5 @@ import org.springframework.context.annotation.Configuration;
 public class UtilApplication {
     public static void main(String[] args) {
         //insert
-        System.out.println("heeh");
-        System.out.println("kaka");
     }
 }
