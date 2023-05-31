@@ -6,5 +6,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @ComponentScan(basePackages = "com.kienpt")
 public class UtilApplication {
-
+    public static void main(String[] args) {
+        System.out.println("heeh");
+    }
 }
