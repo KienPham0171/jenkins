@@ -9,5 +9,6 @@ public class UtilApplication {
     public static void main(String[] args) {
         //insert
         System.out.println("ke");
+        System.out.println("ke");
     }
 }
